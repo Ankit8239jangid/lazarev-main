@@ -1,6 +1,8 @@
 # 1 Brandium® Agency: clone  ➡ [here](https://brandium-clone-by-ankit.vercel.app/).
 
-This project is a clone of the Brandium® Agency  Product Design Agency website, showcasing their expertise in AI & ML, Fintech, Real Estate, E-commerce, and Web 3. The website features sections on UI/UX Design, Product Design, and their design process.
+# 2 Lazarev.agency: clone  ➡ [https://lazarev-main-delta.vercel.app/]).
+
+This project is a clone of the Brandium® Agency && Lazarev.agency Product Design Agency website, showcasing their expertise in AI & ML, Fintech, Real Estate, E-commerce, and Web 3. The website features sections on UI/UX Design, Product Design, and their design process.
 
 ## Live Preview
 

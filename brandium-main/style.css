@@ -1,0 +1,266 @@
+@font-face {
+    font-family: brand;
+    src: url(./8186twklausanne.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: brand;
+    src: url(./6035twklausanne.woff2);
+    font-weight: 100;
+}
+@font-face {
+    font-family: brand;
+    src: url(./3413twklausanne.woff2);
+    font-weight: 900;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:brand;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #F1EEE4;
+}
+#cursor{
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    background-color: rgb(213, 247, 45);
+    border-radius: 50px;
+    padding: 4px;
+    z-index: 99;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#cursor h5{
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight:500;
+    animation-name: cursor-move;
+    animation-duration: 3s;
+    font-size: 0.7vw;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes cursor-move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 2vw 1vw;
+}
+nav svg{
+    height: 2vw;
+    /* mix-blend-mode: darken; */
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.nav-part2{
+    width: 8%;
+    /* background-color: red; */
+}
+.nav-part2 h4{
+    font-size: 1.1vw;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+    /* padding:2vw 3vw; */
+    padding-top: 3vw;
+    padding-left: 3vw;
+    background-image: url(https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 50% 20%;
+    padding-bottom: 55vh;
+}
+.page1-text{
+    /* background-color: red; */
+    height: fit-content;
+    /* margin-bottom: 10px; */
+    overflow: hidden;
+}
+#page1 h1{
+    font-size: 18vw;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    line-height: 16vw;
+    color: #ffffff;
+    letter-spacing: -10px;
+    mix-blend-mode: exclusion;
+}
+#page1 h1 span{
+    display: inline-block;
+}
+
+
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 18vh 22vw;
+}
+
+
+#page2 p{
+    font-size: 2.7vw;
+    font-weight: 100;
+    width: 90%;
+    line-height: 3.5vw;
+    color: #fff;
+    font-family: brand;
+}
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+
+}
+#container{
+    /* background-color: rgb(202, 105, 105); */
+    display: flex;
+    align-items: center;
+    padding: 10vh 13vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5vw;
+}
+#page3 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 7vw;
+    line-height: 7vw;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.card{
+    height: 85vh;
+    width: 30vw;
+    /* background-color: red; */
+    /* width: 30%; */
+    flex-shrink: 0;
+}
+.card .image-div{
+    height: 80%;
+    width: 100%;
+    border-radius: 30px;
+position: relative;
+overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-out 0.3s;
+}
+.card video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-out 0.3s;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-family: monospace;
+    font-size: 1.8vw;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 2vw;
+}
+.card p{
+    font-size: 0.8vw;
+    color: #dadada;
+}
+.card:hover img{
+    scale: 1.15;
+}
+.card:hover video{
+    scale: 1.15;
+}
+
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    padding: 14vh 0vw 14vh 12vw;
+    position: relative;
+    /* background-color: red; */
+}
+#page4>h1{
+    font-size: 7.5vw;
+    line-height: 7.2vw;
+    text-align: center;
+    font-weight:500;
+}
+#element-container{
+    margin-top: 7vw;
+    position: relative;
+}
+.element{
+    /* background-color: red; */
+    padding: 6vh 0;
+    border-top: 1px solid #000000;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    z-index: 9;
+    position: absolute;
+    top: 0;
+}
+.element h2{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+#moving-image{
+    height: 26vw;
+    width: 20vw;
+    background-color: red;
+    position: absolute;
+    opacity: 0;
+    z-index: 8;
+    transform: translate(-50%,-50%);
+}
+
+#moving-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    /* color: red; */
+}
